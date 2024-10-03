@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+background-color: #8d8d62;
+}
+
+header{
+    background-color: black;
+    height: 180px;
+    width: 100%;
+}
+header > h1{
+font-family: var(--fonte1);
+color: white;
+text-align: center;
+font-size: 3.1em;
+padding-top: 50px;
+}
+header > p{
+    font-family: var(--fonte1);
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+p > a{
+    text-decoration: none;
+    color: #8d8d62;
+}
+p > a:hover{
+text-decoration: underline;
+}
+section{
+    width: 100%;
+    padding-bottom: 20vh;
+    background-color: white;
+    text-shadow: 1px 1px 2px black;
+}
+section > p{
+    font-family: var(--fonte3);
+    font-size: 2.3em;
+    padding-left: 50px;
+    padding-top: 70px;
+}
+
+.img001{
+background-image: url('../imagens/background001.jpg');
+width: 100%;
+padding-bottom: 20vh;
+background-position: center right;
+background-size: cover;
+box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.781);
+background-attachment: fixed;
+}
+
+.img001 > p{
+    display: inline-block;
+    font-family: var(--fonte3);
+    font-size: 2em;
+    padding-left: 50px;
+    padding-top: 70px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+} 
+
+div.normal{
+    width: 100%;
+    padding-bottom: 20vh;
+    background-color: white;
+    text-shadow: 1px 1px 2px black;
+}   
+
+.normal > p{
+    font-family: var(--fonte3);
+    font-size: 2em;
+    padding-left: 50px;
+    padding-top: 70px;
+}
+
+div.img002{
+background-image: url('../imagens/background002.jpg');
+width: 100%;
+padding-bottom: 20vh;
+background-size: cover;
+background-position: center bottom;
+box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.76);
+background-attachment: fixed;
+}
+
+.img002 > p{
+    display: inline-block;
+    font-family: var(--fonte3);
+    font-size: 2em;
+    padding-left: 50px;
+    padding-top: 70px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+.normal001{
+    width: 100%;
+    padding-bottom: 20vh;
+    background-color: white;
+    text-shadow: 1px 1px 2px black;
+}
+.normal001 > p{
+    font-family: var(--fonte3);
+    font-size: 2em;
+    padding-left: 50px;
+    padding-top: 70px;
+}
+footer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    background-color: black;
+    color: white;
+}
